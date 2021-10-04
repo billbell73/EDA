@@ -12,4 +12,4 @@ The figure shows a significant reduction in passenger traffic at all stations. T
 
 It also shows the percent reduction differs significantly according to station. The least affected relevant station, Fordham Road, saw a 46% cut in passenger entries. So Fordham Road kept more than half its passengers, while Brooklyn Bridge kept only 10%.
 
-It will be interesting to see how these results are affected by including data from other months apart from January, narrowing the time-window down to 'Donut Time' (i.e. the morning commute), and including exits as well as entries. 
+It will be interesting to see how these results are affected by including data from other months apart from January, narrowing the time-window down to 'Donut Time' (i.e. the morning commute), and including turnstile exits as well as entries. 
