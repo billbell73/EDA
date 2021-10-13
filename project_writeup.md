@@ -19,7 +19,7 @@ The workhorse of much of my analysis is the `stations_monthly` python function w
 
 In my separate `max_counter_analysis` Jupyter Notebook I investigate what is an appropriate number for this `max_counter` parameter. I choose the value 15,000 on the basis that very few legitimate daily counts are above this number. This is from a visual inspection of the largest daily counts in descending order: gauging the level at which the numbers are no longer due to counters resetting. (Incidentally, I regard this as a potentially fruitful area for future work. Ideally, either the `max_counter` number would be set at different levels for different stations, or another method would be found for eliminating these measurement errors. The current one-size-fits-all approach sees a few legitimate counts discarded, and a fair number of bogus counts included).
 
-Generally, I create dataframes for the 9 month period by iterating over the `stations_monthly` function for each relevant month, and append the results to a list. I then create a new dataframe from that list of Pandas series, which can be used as the basis for a visualisation. 
+Generally, I create dataframes for the 9 month period by iterating over the `stations_monthly` function for each relevant month, and appending the results to a list. I then create from that list of Pandas series a new dataframe, which can be used as the basis for a visualisation. 
 
 ### Tools
 * Various Python libraries including Pandas for downloading MTA turnstile data to local database
